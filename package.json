@@ -148,6 +148,7 @@
     "directories": {
       "output": "release"
     },
+    "asar": false,
     "extraMetadata": {
       "main": "electron/main.mjs"
     },
@@ -159,13 +160,6 @@
       "skills/**/*",
       "electron/**/*",
       "package.json"
-    ],
-    "asarUnpack": [
-      "node_modules/better-sqlite3/**/*",
-      "node_modules/node-pty/**/*",
-      "node_modules/sqlite3/**/*",
-      "node_modules/sharp/**/*",
-      "node_modules/@img/**/*"
     ],
     "mac": {
       "icon": "build/icon.icns",
